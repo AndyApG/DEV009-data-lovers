@@ -11,7 +11,7 @@
 ***
 
 ## Resumen 
-**POKELIST** es un sitio en donde cualquier persona interezada en conocer el mundo de los pokémon puede comenzar, ya que en este lugar se puede vizualizar la  información básica de cada uno  (nombre, numero, tipo, imagen) de forma clara, los fan de la serie de pokemon pueden encontrar las listas de  los pokemon correspondientes a las dos primeras generaciones y filtrarlas  deacuerdo a la rareza del pokémon (normal, mitico, legendario). Además para quienes  son jugadores principiantes de **Pokémon GO**, se pueden ordenar los pokemon por fuerza, para ello se utiliza el promedio del **DPS** de todos los ataques rápidos como medida de fuerza de un pókemon. Finalmente para quienes son jugadores más expertos, se puede ver una tabla con la información de los ataques especiales de los pókemon, para poder consultarla al momento de un combate.
+**POKELIST** es un sitio en donde cualquier persona interezada en conocer el mundo de los pokémon puede comenzar, ya que en este lugar se puede vizualizar la  información básica de cada uno  (nombre, numero, tipo, imagen) de forma clara, los fan de la serie de pokemon pueden encontrar las listas de  los pokemon correspondientes a las dos primeras generaciones y filtrarlas  deacuerdo a la rareza del pokémon (normal, mitico, legendario). Además para quienes  son jugadores principiantes de **Pokémon GO**, se pueden ordenar los pokemon por fuerza o energía, para ello se calcula el **DPS** y **EPS** de cada ataque rápidos y se usa el promedio de ellos como medida de fuerza y energía respectivamente de un pókemon.
 
 ## Historias de usuario
 
@@ -28,7 +28,7 @@ Yo como usuario o jugador de pokémon go, quiero poder ordenar las tarjetas por 
 Yo como fan de la serie de pokemon go quiero ver los pokemon por rareza de cada una de las generaciones. Para recordar cuales son los pokemon miticos, legendarios y normales.
 
 ### Historia 5
-Yo como entrenador principiante de pokemon me gustaria ordenar los pokemon al comparar el promedio del dps y el eps de todos los ateques. Para saber cuales son los más fuertes y cuales te dan más energia.
+Yo como entrenador principiante de pokemon me gustaria ordenar los pokemon al comparar el promedio del dps y el eps de los ateques rápidos. Para saber cuales son los más fuertes y cuales te dan más energia al momento de un combate.
 
 ## Prototipos
 ### Prototipo de baja
