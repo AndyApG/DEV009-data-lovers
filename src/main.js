@@ -106,6 +106,24 @@ menuGeneration.addEventListener('change', () => {
         
           });
           break;
+
+        case '':  
+          pokemonList.forEach(function(pokemon){
+            display(pokemon);
+          });
+      
+          menuOrdenar.addEventListener('change', ()=>{
+            const ordenar = menuOrdenar.options[menuOrdenar.selectedIndex].value;
+            cleanShowAll();
+            const ordenados = sortData(pokemonList,'name',ordenar);
+            ordenados.forEach(function(pokemon){
+              display(pokemon);
+            });
+        
+      
+        
+          });
+          break;
         
         }
     
@@ -185,6 +203,23 @@ menuGeneration.addEventListener('change', () => {
           });
           break;
         
+        case '':  
+          generationi.forEach(function(pokemon){
+            display(pokemon);
+          });
+      
+          menuOrdenar.addEventListener('change', ()=>{
+            const ordenar = menuOrdenar.options[menuOrdenar.selectedIndex].value;
+            cleanShowAll();
+            const ordenados = sortData(generationi,'name',ordenar);
+            ordenados.forEach(function(pokemon){
+              display(pokemon);
+            });
+        
+      
+        
+          });
+          break;
         }
     
       }
@@ -256,6 +291,24 @@ menuGeneration.addEventListener('change', () => {
             ordenados.forEach(function(pokemon){
               display(pokemon);
             });
+      
+        
+          });
+          break;
+        
+        case '':  
+          generationii.forEach(function(pokemon){
+            display(pokemon);
+          });
+      
+          menuOrdenar.addEventListener('change', ()=>{
+            const ordenar = menuOrdenar.options[menuOrdenar.selectedIndex].value;
+            cleanShowAll();
+            const ordenados = sortData(generationii,'name',ordenar);
+            ordenados.forEach(function(pokemon){
+              display(pokemon);
+            });
+        
       
         
           });
