@@ -337,7 +337,7 @@ pokemonList.map(function(pokemon){
 }) 
 
 const vecMeansEps = vecEps.map(function(energies){
-  return parseFloat(mean(energies));
+  return mean(energies);
 })
 const vecMeansDps = vecDps .map(function(damage){
   return parseFloat(mean(damage));

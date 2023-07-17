@@ -1,4 +1,4 @@
-import {filterData,sortData} from '../src/data.js';
+import {filterData,sortData,change, mean} from '../src/data.js';
 
 describe('filterData',() => {
   it('is a function', () => {
@@ -57,5 +57,29 @@ describe('sortData',() => {
       Object({name : 'Kira', color :'brown', age :2}),
       Object({name : 'Minnie', color :'brown', age :1,}));
     expect(received).toEqual(expected);
+  });
+});
+
+describe('change',()=>{
+  it('is a function',() => {
+    expect(typeof change).toBe('function');
+  });
+  it('calcula el eps correctamente',() => {
+    const received = change({'energy': '5','time':'2','damage':10},"energy","time");
+    const expected = parseFloat(5/2).toFixed(1);
+    expect(received).toEqual(expected);
+
+  });
+});
+
+describe('mean',()=>{
+  it('is a function',() => {
+    expect(typeof mean).toBe('function');
+  });
+  it('calcula el promedio de un array de numeros', () => {
+    const received = mean([15.0,10.5,5.4]);
+    const expected = 10.3;
+    expect(received).toEqual(expected);
+
   });
 });
