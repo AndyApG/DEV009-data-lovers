@@ -2,9 +2,9 @@
 
 ## Índice
 
-* [1. Resumen](#Resumen)
-* [2. Historias de usuario](#Historias-de-usuario)
-* [3. Prototipos](#Prototipos)
+* [1. Resumen](#resumen)
+* [2. Historias de usuario](#historias-de-usuario)
+* [3. Prototipos](#prototipos)
 
  
 
