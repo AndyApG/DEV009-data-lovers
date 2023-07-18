@@ -166,43 +166,45 @@ div {
     background: linear-gradient(to bottom right,	rgb(168,160,144), 30%, 	rgb(201, 197, 190));
 }
 .electric{
-    background: linear-gradient(to bottom right,	rgb(248,208,48), 30%, 	rgb(252, 226, 121));
+    background: linear-gradient(to bottom right,	rgb(250, 209, 46), 30%, 	rgb(250, 226, 129));
 }
 .ground{
-    background: linear-gradient(to bottom right,	rgb(234,214,164), 30%, rgb(253, 246, 228));
+    background: linear-gradient(to bottom right,	rgb(235, 206, 134), 30%, rgb(255, 227, 155));
 }
 .poison{
-    background: linear-gradient(to bottom right,	rgb(176,88,160), 30%, 	rgb(252, 125, 229));
+    background: linear-gradient(to bottom right,	rgb(176,88,160), 30%, 	rgb(226, 111, 205));
 }
 .fighting{
-    background: linear-gradient(to bottom right,	rgb(160,80,56), 30%, 	rgb(255, 131, 94));
+    background: linear-gradient(to bottom right,	rgb(160,80,56), 30%, 	rgb(224, 107, 72));
 }
 .psychic{
     background: linear-gradient(to bottom right,	rgb(248,112,160), 30%,	rgb(255, 160, 193));
 }
 .rock{
-    background: linear-gradient(to bottom right,	rgb(184,160,88), 30%, 	rgb(255, 222, 124));
+    background: linear-gradient(to bottom right,	rgb(168, 147, 83), 30%, 	rgb(187, 169, 114));
 }
 .ice{
-    background: linear-gradient(to bottom right,	rgb(176,88,160), 30%, 	rgb(252, 125, 229));
+    background: linear-gradient(to bottom right,	rgb(88,200,224), 30%, 	rgb(106, 228, 255)
+    );
 }
 .dragon{
-    background: linear-gradient(to bottom right,	rgb(176,88,160), 30%, 	rgb(252, 125, 229));
+    background: linear-gradient(to bottom right,	rgb(96, 75, 216), 30%, rgb(123, 101, 247)
+    );
 }
 .dark{
-    background: linear-gradient(to bottom right,	rgb(176,88,160), 30%, 	rgb(252, 125, 229));
+    background: linear-gradient(to bottom right,	rgb(117, 100, 114), 30%, 	rgb(134, 131, 134));
 }
 .ghost{
-    background: linear-gradient(to bottom right,	rgb(176,88,160), 30%, 	rgb(252, 125, 229));
+    background: linear-gradient(to bottom right,	rgb(96, 101, 170), 30%, 	rgb(149, 149, 238));
 }
 .steel{
-    background: linear-gradient(to bottom right,	rgb(176,88,160), 30%, 	rgb(252, 125, 229));
+    background: linear-gradient(to bottom right,	rgb(168,168,192), 30%, rgb(202, 202, 221));
 }
 .fligth{
-    background: linear-gradient(to bottom right,rgb(176,88,160), 30%, 	rgb(252, 125, 229));
+    background: linear-gradient(to bottom right, rgb(152,168,240), 30%, 	rgb(196, 207, 255));
 }
 .fairy{
-    background: linear-gradient(to bottom right,	rgb(176,88,160), 30%, 	rgb(252, 125, 229));
+    background: linear-gradient(to bottom right,	rgb(240, 152, 240), 30%, 	rgb(255, 196, 250));
 }
 
 /*footer{
