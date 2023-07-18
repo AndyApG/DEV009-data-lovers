@@ -45,7 +45,7 @@ export const change = (obj,val,time) => {
 //Función para calcular el promedio de un arreglo de numeros
 export const mean = (arrayOfNumbers)=>{ 
   const sum=arrayOfNumbers.reduce((previous, current) => parseFloat(current) + parseFloat(previous),0);//Se calcula la suma de los numeros del arreglo
-  return (sum/arrayOfNumbers.length).toFixed(1);//Regresa la suma de los valores entre el numero de valores.
+  return parseFloat((sum/arrayOfNumbers.length).toFixed(1));//Regresa la suma de los valores entre el numero de valores.
   
 }
 
