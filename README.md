@@ -63,7 +63,7 @@ En la tarjeta del cada pokémon aparece la información que permite ordenar a lo
 
 ![Prototipo_de_baja_fidelidad_movil](./src/img/bajamovil.png)
 
-![Prototipo_de_baja_fidelidad_desktop](./src/img/desk.png){width='100px' height='50px'}
+![Prototipo_de_baja_fidelidad_desktop](./src/img/bajadesk.png){width='100px' height='50px'}
 
 ### Prototipo de alta
 ### Test de usabilidad
