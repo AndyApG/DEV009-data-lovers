@@ -59,11 +59,14 @@ En la tarjeta del cada pokémon aparece la información que permite ordenar a lo
 
 
 ## Prototipos
+A continuación mostramos los prototipos de baja y alta fidelidad que se obtuvieron al hacer las historias de usuario.
 ### Prototipo de baja
+
+En la parte del encabezado se mostrará el nombre y logotipo de la página, despues en la barra de menu de mostraran tres menú desplegables para poder seleccionar las generaciones, tipos de rareza y ordenar los datos mostrados como se solicita en cada una de las historias de usuarios. Todos los datos se representarán en forma de tarjetas como se representa en los prototipos:
 
 ![Prototipo_de_baja_fidelidad_movil](./src/img/bajamovil.png)
 
-![Prototipo_de_baja_fidelidad_desktop](./src/img/bajadesk.png){width='100px' height='50px'}
+![Prototipo_de_baja_fidelidad_desktop](./src/img/bajadesk.png)
 
 ### Prototipo de alta
 ### Test de usabilidad
