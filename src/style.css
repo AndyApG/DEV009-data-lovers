@@ -3,21 +3,15 @@
     margin: 0;
     padding: 0;  
 }
-/*k
-
-*/
 
 .pokemon-card{
     opacity: 1;
-    top: 0px;
-    left: 0px;
     border-radius: 10px;
-}
-.pokemon-card{
     margin: 0.5rem;
     width: 130px;
     min-width: max-content;
 }
+
 .mostrar-pokemon{
     width: -webkit-fill-available;
     display: flex;
@@ -27,9 +21,7 @@
     justify-content: space-around;
     background: #ffffff;    
 }
-div {
-    margin-top: 160px;
-}
+
 .grass{
     
     background: linear-gradient(to bottom right, rgb(120,200,80), 30%, rgb(210, 245, 154));
@@ -88,10 +80,6 @@ div {
     background: linear-gradient(to bottom right,	rgb(240, 152, 240), 30%, 	rgb(255, 196, 250));
 }
 
-/*l
-*/
- 
-
 body {
     background: #a7b9d3;
     font-family: 'Lato', sans-serif;
@@ -103,6 +91,7 @@ body {
     .container {
       max-width: 1200px;
       margin: 0 auto;
+      padding: 0;
       
     }
 
@@ -110,8 +99,8 @@ body {
         width: 100%;
         height: 280px;
         position: sticky;
-        position: -webkit-sticky; // Safari //
-        top: -100px;
+        position: -webkit-sticky; /* Safari */
+        top: -10px;
         z-index: 10;
         border-radius: 50px 50px 0 0;
         
@@ -120,7 +109,7 @@ body {
     .banner {
       background-image: linear-gradient(to bottom,  #cc322a, #cc322a,  #d01a1a, #d01a1a, #8d0000, #a11818, #b44a4a);
       padding: -1px;
-      padding-bottom: 30px;
+      padding-bottom: 10px;
       text-align: center;
       border-radius: 50px 50px 0 0;
       display: block;
@@ -145,10 +134,15 @@ body {
     margin: 0;
     }
     
+    aside{
+        position: sticky;
+        
+    }
     .menu {
       margin-top: 5px;
       background-color: #e6d596;
       padding: 10px;
+      position:sticky;
     }
     
     .menu form {
@@ -162,14 +156,9 @@ body {
     padding: 5px;
     border: 1px solid #ccc;
     }
-    .imagenInicio{
-        width: 100%;
-        height: 300px;
-        background-color: black;
-        align-content: center;
-    }
+   
     #mostrarPokemon {
-    margin-top: 20px;
+    margin-top: 100px;
     }
     img .hide{
         width:fit-content;
@@ -182,7 +171,7 @@ body {
         font-family: 'Staatliches';
         text-align: center;
     }
-    .labelPoke{
+    label{
         color: black;
         size: 1rem;
         font-family: 'Staatliches';
@@ -217,15 +206,14 @@ body {
 
     footer {
       text-align: center;
-      margin-top: 30px;
-      padding: 10px;
+      
+      padding: 30px;
       color: #fff;
-      font-size: 14px;
+      font-size: 16px;
       background-image: linear-gradient(to bottom,  #d01a1a, #d01a1a,  #d01a1a, #d01a1a, #8d0000, #a11818, #b44a4a);
-      border-radius: 20px 20px 0 0;
+      border-radius: 0 0 20px 20px;
       position: sticky;
-      top: -100px;
-      z-index: 10;
+      margin-bottom: 10px;
       box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.35);
     }
 
