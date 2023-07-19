@@ -23,14 +23,14 @@ Yo como persona interesada en conocer a todos los pokémon quisiera vizualizar l
 
 Se muestra de forma clara, atractiva con estilo de letra legible e imagenes nítidas el nombre, número según la pokédex, foto y tipo de todos los pokémon.
 
-#### Criterio de terminado
+
 
 ### Historia 2
 Yo como fan de la serie de pokemon me gustaria que los pokemon se muestren en tarjetas, donde el color de la tarjeta sea deacuerto al tipo del pokemon. Para diferenciar fácilmente los tipos que hay.
 
 #### Criterio de aceptación 
 La información del pókemon se muestra en una tarjeta cuyo color es alucivo de almenos un tipo del pokémon que se muestra y permite ver la informacion claramente.
-#### Criterio de terminado
+
 
 ### Historia 3
 Yo como usuario o jugador de pokémon go, quiero poder ordenar las tarjetas por nombre  de pokemon alfabeticamente de la A-Z y Z-A. Para ubicar al pokémon cuando no recuerde el nombre.
@@ -38,8 +38,6 @@ Yo como usuario o jugador de pokémon go, quiero poder ordenar las tarjetas por 
 #### Criterio de aceptación 
 
 En el menu **Ordenar** aparecen las opciones de "Por nombre de A-Z", "Por nombre de Z-A" y se ordena correctamente.
-
-#### Criterio de terminado
 
 
 ### Historia 4
@@ -50,7 +48,7 @@ Yo como fan de la serie de pokemon go quiero ver los pokemon por rareza de cada 
 Se agregan dos menú el primero es **Generación** donde el usuario seleccionará la generación que desea ver.
 El segundo menú es **Mostrar**, aquí aparecen las opciones de "Pokémon miticos", "Pokémon legendarios" y "Pokémon normales", se filtran correctamente despues de seleccionar alguna generación.
 
-#### Criterio de terminado
+
 
 ### Historia 5
 Yo como entrenador principiante de pokemon me gustaria ordenar los pokemon al comparar los ateques rápidos. Para saber cuales son los más fuertes y cuales te dan más energia al momento de un combate.
@@ -58,10 +56,14 @@ Yo como entrenador principiante de pokemon me gustaria ordenar los pokemon al co
 #### Criterio de aceptación 
 En la tarjeta del cada pokémon aparece la información que permite ordenar a los pokémon de manera ascendente y descendente deacuerdo al daño que causan en un ataque rápido y la energía que generan. Estas cantidades serán el DPS (promedio del daño por segundo de todos los ataques rápidos) y el EPS (el promedio de la energía por segundo de todos los ataques rápidos).
 
-#### Criterio de terminado
+
 
 ## Prototipos
 ### Prototipo de baja
+
+![Prototipo_de_baja_fidelidad_movil](./src/img/bajamovil.png)
+
+![Prototipo_de_baja_fidelidad_desktop](./src/img/desk.png){width='100px' height='50px'}
 
 ### Prototipo de alta
 ### Test de usabilidad
