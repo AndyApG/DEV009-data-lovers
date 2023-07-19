@@ -11,7 +11,7 @@
 ***
 
 ## Resumen 
-**POKELIST** es un sitio en donde cualquier persona interezada en conocer el mundo de los pokémon puede comenzar, ya que en este lugar se puede vizualizar la  información básica de cada uno  (nombre, numero, tipo, imagen) de forma clara, los fan de la serie de pokemon pueden encontrar las listas de  los pokemon correspondientes a las dos primeras generaciones y filtrarlas  deacuerdo a la rareza del pokémon (normal, mitico, legendario). Además para quienes  son jugadores principiantes de **Pokémon GO**, se pueden ordenar los pokemon por fuerza o energía, para ello se calcula el **DPS** y **EPS** de cada ataque rápidos y se usa el promedio de ellos como medida de fuerza y energía respectivamente de un pókemon.
+**PoKéLiSt** es un sitio en donde cualquier persona interezada en conocer el mundo de los pokémon puede comenzar, ya que en este lugar se puede vizualizar la  información básica de cada uno  (nombre, numero, tipo, imagen) de forma clara, los fan de la serie de pokemon pueden encontrar las listas de  los pokemon correspondientes a las dos primeras generaciones y filtrarlas  deacuerdo a la rareza del pokémon (normal, mitico, legendario). Además para quienes  son jugadores principiantes de **Pokémon GO**, se pueden ordenar los pokemon por fuerza o energía, para ello se calcula el **DPS** y **EPS** de cada ataque rápido y se usa el promedio de ellos como medida de fuerza y energía  de un pókemon.
 
 ## Historias de usuario
 
