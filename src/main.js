@@ -79,6 +79,48 @@ menuGeneration.addEventListener('change', () => {
     pokemonList.forEach(function(pokemon){
       display(pokemon);
     });
+    menuOrdenar.addEventListener('change', ()=>{
+            const ordenar = menuOrdenar.options[menuOrdenar.selectedIndex].value;
+            cleanShowAll();
+            switch(ordenar){
+            case 'ascendenteaz':
+              sortData(pokemonList,'name','ascendente').forEach(function(pokemon){
+                display(pokemon);
+              });
+              break;
+            case 'descendenteza':
+              sortData(pokemonList,'name','descendente').forEach(function(pokemon){
+                display(pokemon);
+              });
+              break;
+            case 'ascendenteeps':
+              sortData(pokemonList,'eps','ascendente').forEach(function(pokemon){
+                display(pokemon);
+              });
+              break;
+            case 'descendenteeps':
+              sortData(pokemonList,'eps','descendente').forEach(function(pokemon){
+                display(pokemon);
+              });
+              break;
+            case 'ascendentedps':
+              sortData(pokemonList,'dps','ascendente').forEach(function(pokemon){
+                display(pokemon);
+              });
+              break;
+            case 'descendentedps':
+              sortData(pokemonList,'dps','descendente').forEach(function(pokemon){
+                display(pokemon);
+              });
+              break;
+  
+            default:
+              pokemonList.forEach(function(pokemon){
+                display(pokemon);
+              });
+  
+            }
+          });
 
     menuOption.addEventListener('change',
       function(){
