@@ -80,47 +80,47 @@ menuGeneration.addEventListener('change', () => {
       display(pokemon);
     });
     menuOrdenar.addEventListener('change', ()=>{
-            const ordenar = menuOrdenar.options[menuOrdenar.selectedIndex].value;
-            cleanShowAll();
-            switch(ordenar){
-            case 'ascendenteaz':
-              sortData(pokemonList,'name','ascendente').forEach(function(pokemon){
-                display(pokemon);
-              });
-              break;
-            case 'descendenteza':
-              sortData(pokemonList,'name','descendente').forEach(function(pokemon){
-                display(pokemon);
-              });
-              break;
-            case 'ascendenteeps':
-              sortData(pokemonList,'eps','ascendente').forEach(function(pokemon){
-                display(pokemon);
-              });
-              break;
-            case 'descendenteeps':
-              sortData(pokemonList,'eps','descendente').forEach(function(pokemon){
-                display(pokemon);
-              });
-              break;
-            case 'ascendentedps':
-              sortData(pokemonList,'dps','ascendente').forEach(function(pokemon){
-                display(pokemon);
-              });
-              break;
-            case 'descendentedps':
-              sortData(pokemonList,'dps','descendente').forEach(function(pokemon){
-                display(pokemon);
-              });
-              break;
+      const ordenar = menuOrdenar.options[menuOrdenar.selectedIndex].value;
+      cleanShowAll();
+      switch(ordenar){
+      case 'ascendenteaz':
+        sortData(pokemonList,'name','ascendente').forEach(function(pokemon){
+          display(pokemon);
+        });
+        break;
+      case 'descendenteza':
+        sortData(pokemonList,'name','descendente').forEach(function(pokemon){
+          display(pokemon);
+        });
+        break;
+      case 'ascendenteeps':
+        sortData(pokemonList,'eps','ascendente').forEach(function(pokemon){
+          display(pokemon);
+        });
+        break;
+      case 'descendenteeps':
+        sortData(pokemonList,'eps','descendente').forEach(function(pokemon){
+          display(pokemon);
+        });
+        break;
+      case 'ascendentedps':
+        sortData(pokemonList,'dps','ascendente').forEach(function(pokemon){
+          display(pokemon);
+        });
+        break;
+      case 'descendentedps':
+        sortData(pokemonList,'dps','descendente').forEach(function(pokemon){
+          display(pokemon);
+        });
+        break;
   
-            default:
-              pokemonList.forEach(function(pokemon){
-                display(pokemon);
-              });
+      default:
+        pokemonList.forEach(function(pokemon){
+          display(pokemon);
+        });
   
-            }
-          });
+      }
+    });
 
     menuOption.addEventListener('change',
       function(){
@@ -818,19 +818,4 @@ menuGeneration.addEventListener('change', () => {
 }
 );
 
-
-
-
-
-
-const orderByEps2 = sortData(pokemonCopy.filter(i => i.generation.num === "generation ii"),'eps','descendente');
-const orderByDps2 = sortData(pokemonCopy.filter(i => i.generation.num === "generation ii"),'dps','descendente');
-
-
-console.log('top 10 eps segunda generacion',orderByEps2.splice(0,10),'top 10 dps segunda generacion',orderByDps2.splice(0,10));
-
-const orderByEps1 = sortData(pokemonCopy.filter(i => i.generation.num === "generation i"),'eps','descendente');
-const orderByDps1 = sortData(pokemonCopy.filter(i => i.generation.num === "generation i"),'dps','descendente');
-
-console.log('top 10 eps generacion 1',orderByEps1.splice(0,10),'top 10 dps generacion 1',orderByDps1.splice(0,10));
 
