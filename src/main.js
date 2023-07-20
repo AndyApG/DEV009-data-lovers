@@ -42,25 +42,19 @@ const display = (pokemonData)=>{
   numPokemon.textContent = pokemonData.num;
   const imgPokemon = document.createElement('img');
   imgPokemon.setAttribute('src',pokemonData.img);
-  const labelEps = document.createElement('label');
-  labelEps.textContent = 'EPS:'
-  const epsPokemon = document.createElement('p');
-  epsPokemon.textContent = pokemonData.eps;
-  const labelDps = document.createElement('label');
-  labelDps.textContent = 'DPS:'
-  const dpsPokemon = document.createElement('p');
-  dpsPokemon.textContent = pokemonData.dps;
+  
+  
+  const epsdpsPokemon = document.createElement('p');
+  epsdpsPokemon.textContent = `EPS : ${pokemonData.eps}, DPS : ${pokemonData.dps}`
+  
   const typePokemon = document.createElement('p');
-  typePokemon.textContent = `${pokemonData.type[0]}`;
+  typePokemon.textContent = `${pokemonData.type.join(',')}`;
    
   cardPokemon.appendChild(namePokemon);
   cardPokemon.appendChild(numPokemon);
   cardPokemon.appendChild(imgPokemon);
   cardPokemon.appendChild(typePokemon);
-  cardPokemon.appendChild(labelEps);
-  cardPokemon.appendChild(epsPokemon);
-  cardPokemon.appendChild(labelDps);
-  cardPokemon.appendChild(dpsPokemon);
+  cardPokemon.appendChild(epsdpsPokemon);
   seccionShowAll.appendChild(cardPokemon);
 
 };
@@ -817,5 +811,3 @@ menuGeneration.addEventListener('change', () => {
   }
 }
 );
-
-
