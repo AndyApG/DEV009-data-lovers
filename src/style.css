@@ -44,7 +44,7 @@ body {
   padding: 0.5em;
   position:fixed;
   width: 100%;
-  top: 7em;
+  top:10em;
   
 }
       
@@ -137,8 +137,8 @@ body {
     font-family: 'Staatliches', cursive;
     color: #cc322a;
     position: absolute;
-    top: 30%;
-    left: 35%;
+    top: 35%;
+    left: 40%;
     }
 
     .mostrar-pokemon{
@@ -149,7 +149,7 @@ body {
     justify-content: space-around;
     position: absolute;
     background-color: white;
-    margin-top: 14.5em;
+    margin-top: 16.5em;
     margin-left: 3%;
   
     }
