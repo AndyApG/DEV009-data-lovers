@@ -26,7 +26,23 @@ Se muestra de forma clara, atractiva, con estilo de letra legible e imágenes n�
 
 #### Definición de terminado
 
-<img src =./src/img/Todos.jpeg width="30%">
+<table>
+<thead>
+<tr>
+<th>Telefóno</th>
+<th>Computadora</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src =./src/img/Todos.jpeg width="80%"></td>
+<td><img src =./src/img/H1.png width="100%"></td>
+</tr>
+</tbody>
+</table>
+
+
+
 
 
 
@@ -73,9 +89,23 @@ En el menú **Ordenar** aparecen las opciones de "Por nombre de A-Z", "Por nombr
 #### Definición de terminado
 
 
-<img src =./src/img/MenuOrdenarAZ.jpeg width="30%">
 
 
+<table>
+<thead>
+<tr>
+<th>Telefóno</th>
+<th>Computadora</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src =./src/img/MenuOrdenarAZ.jpeg width="100%"></td>
+<td><img src =./src/img/H2AZ.png width="100%"></
+<td><img src =./src/img/H3ZA.png width="100%"></td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -172,4 +202,28 @@ Usamos las herramientas de figma para crear nuestra prueba de usabilidad del pri
 
 ## Despliegue de la página
 
+Se hizo el despliegue de la página, se puede accesar desde el siguiente link.
+
 https://andyapg.github.io/DEV009-data-lovers/
+
+al probar el despliegue nos percatamos, que nos falto contemplar los criterios de diseño responsive para dispositivos con proporciones distintas de altura, además de que la paleta de color se aprecia de forma distinta en diferentes exploradores. En la siguiente tabla se muestran algunos ejemplos.
+
+<table>
+<thead>
+<tr>
+<th>Telefóno</th>
+<th>Computadora</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Samsumg S3 </td>
+<td>Lenovo ideapad</td>
+<tr>
+<td><img src =./src/img/S3Chrome.jpg width="80%"></td>
+<td><img src =./src/img/lenovochrome.png width="100%"></td>
+</tr>
+<td><img src =./src/img/S3Samsumg.jpg width="80%"></td>
+<td><img src =./src/img/fireFox.png width="100%"></td>
+</tbody>
+</table>
