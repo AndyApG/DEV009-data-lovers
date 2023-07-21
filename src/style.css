@@ -163,7 +163,6 @@ body {
     }
     .pokemon-card{
     opacity: 1;
-    transform: matrix(1,0,0,1,0,0);
     border-radius: 1rem;
     border: 0.5em solid #0000007b;
     margin-left: 1rem;

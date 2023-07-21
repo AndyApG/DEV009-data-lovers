@@ -200,11 +200,14 @@ Usamos las herramientas de figma para crear nuestra prueba de usabilidad del pri
 
 ![Prueba de usabilidad](./src/img/pruebafigma.gif)
 
+https://www.figma.com/proto/1ZJZXsXZtmcPSwXDTV0nun/Untitled?type=design&node-id=1-2&t=7qDM5oP6ppaZFd6K-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=4%3A24&prev-org-id=external-teams
+
 ## Despliegue de la página
 
 Se hizo el despliegue de la página, se puede accesar desde el siguiente link.
 
 https://andyapg.github.io/DEV009-data-lovers/
+https://kellpitt19.github.io/DEV009-data-lovers/
 
 al probar el despliegue nos percatamos, que nos falto contemplar los criterios de diseño responsive para dispositivos con proporciones distintas de altura, además de que la paleta de color se aprecia de forma distinta en diferentes exploradores. En la siguiente tabla se muestran algunos ejemplos.
 
