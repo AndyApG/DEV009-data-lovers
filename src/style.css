@@ -44,7 +44,7 @@ body {
   padding: 0.5em;
   position:fixed;
   width: 100%;
-  top:32vh;
+  top:31vh;
   
 }
       
@@ -189,7 +189,9 @@ body {
     }
 /*Responsive*/
 @media screen and (max-width: 768px) {
-  
+  .menu{
+    top:16vh;
+  }
   .menu form {
     
     flex-direction: column;
