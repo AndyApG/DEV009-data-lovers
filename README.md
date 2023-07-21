@@ -5,6 +5,7 @@
 * [1. Resumen](#resumen)
 * [2. Historias de usuario](#historias-de-usuario)
 * [3. Prototipos](#prototipos)
+* [4. Despliegue de la página](#despliegue-de-la-página)
 
  
 
@@ -23,7 +24,11 @@ Yo como persona interesada en conocer a todos los Pokémon quisiera visualizar l
 
 Se muestra de forma clara, atractiva, con estilo de letra legible e imágenes nítidas, el nombre, número según la pokédex, foto y tipo de todos los Pokémon.
 
-------------
+#### Definición de terminado
+
+![Todos los pokemon en movil](./src/img/Todos.jpeg)
+
+
 
 ### Historia 2
 Yo como fan de la serie de Pokémon me gustaría que los Pokémon se muestren en tarjetas, donde el color de la tarjeta sea de acuerdo al tipo del Pokémon. Para diferenciar fácilmente los tipos que hay.
@@ -31,7 +36,16 @@ Yo como fan de la serie de Pokémon me gustaría que los Pokémon se muestren en
 #### Criterio de aceptación 
 La información del Pokémon se muestra en una tarjeta cuyo color es alusivo de al menos un tipo del Pokémon que se muestra y permite ver la información claramente.
 
-------------
+### Definición de terminado
+
+
+![Tarjetas de bulbasor](./src/img/Prototipotarjeta.png)
+![Tarjetas de charizard](./src/img/Prototipotarjeta.png)
+
+![Tarjetas de squartle](./src/img/Prototipotarjeta.png)
+
+![Tarjetas de caterpie](./src/img/Prototipotarjeta.png)
+
 
 ### Historia 3
 Yo como usuario o jugador de Pokémon Go, quiero poder ordenar las tarjetas por nombre  de Pokémon alfabéticamente de la A-Z y Z-A. Para ubicar al Pokémon cuando no recuerde el nombre.
@@ -40,7 +54,14 @@ Yo como usuario o jugador de Pokémon Go, quiero poder ordenar las tarjetas por 
 
 En el menú **Ordenar** aparecen las opciones de "Por nombre de A-Z", "Por nombre de Z-A" y se ordena correctamente.
 
-------------
+### Definición de terminado
+
+
+
+![Menu para ordenar movil](./src/img/MenuOrdenarAZ.jpeg)
+
+
+
 
 ### Historia 4
 Yo como fan de la serie de Pokémon Go quiero ver los Pokémon por rareza de cada una de las generaciones. Para recordar cuáles son los Pokémon míticos, legendarios y normales.
@@ -50,7 +71,14 @@ Yo como fan de la serie de Pokémon Go quiero ver los Pokémon por rareza de cad
 Se agregan dos menús, el primero es **Generación** donde el usuario seleccionará la generación que desea ver.
 El segundo menú es **Mostrar**, aquí aparecen las opciones de "Pokémon míticos", "Pokémon legendarios" y "Pokémon normales", se filtran correctamente después de seleccionar alguna generación.
 
-------------
+### Definición de terminado
+
+![Menu para filtrar generacion](./src/img/MenuGene.jpeg)
+
+![Menu para rareza](./src/img/MenuRareza.jpeg)
+
+
+
 
 ### Historia 5
 Yo como entrenador principiante de Pokémon me gustaría ordenar los Pokémon al comparar los ataques rápidos. Para saber cuáles son los más fuertes y cuáles te dan más energía al momento de un combate.
@@ -58,6 +86,8 @@ Yo como entrenador principiante de Pokémon me gustaría ordenar los Pokémon al
 #### Criterio de aceptación 
 
 En la tarjeta del cada Pokémon aparece la información que permite ordenar a los Pokémon de manera ascendente y descendente, de acuerdo al daño que causan en un ataque rápido y la energía que generan. Estas cantidades serán el DPS (promedio del daño por segundo de todos los ataques rápidos) y el EPS (el promedio de la energía por segundo de todos los ataques rápidos).
+
+### Definición de terminado
 
 ## Prototipos
 A continuación mostramos los prototipos de baja y alta fidelidad que se obtuvieron al hacer las historias de usuario.
@@ -71,16 +101,21 @@ En la parte del encabezado se mostrará el nombre y logotipo de la página, desp
 
 ### Prototipo de alta
 
-![Prototipo_de_baja_fidelidad_movil](./src/img/altamovil.png)
+Al principio decidimos hacer un prototipo de alta fidelidad para dos tamaños de dispositivos (laptop y teléfono móvil), iniciamos con el de telefono, colocando una pantalla de bienvenida y en la siguiente las tarjetas de los pokémon, un menú hamburguesa en la parte superior izquierda de la pantalla con las opciones de filtrar, ordenar y mostrar segun las historias de usuario.
 
-![Prototipo_de_alta_fidelidad_desktop](./src/img/altadesk.png)
+![Prototipos de tarjetas](./src/img/prototipoalta1.png)
 
-### Objetivos de aprendizaje
+Después se realizó un prototipo de alta fidelidad para las tarjetas de los pokémon, decidimos solo hacer la representación de cuatro tipos ya que en total hay 18 pokémones. La paleta de color en que nos inspiramos para cada fondo de las tarjetas se encuentra en esta página.
+![Prototipos de tarjetas](./src/img/Prototipotarjeta.png)
 
-Es importante destacar que el éxito de este proyecto se fundamenta en la atención meticulosa a las necesidades de los usuarios. Esto implica la realización de investigaciones detalladas y la aplicación de técnicas de diseño centradas en el usuario para garantizar que la interfaz web cumpla con sus expectativas y necesidades específicas. La capacidad de manipular y visualizar datos de manera clara, intuitiva y efectiva un pilar fundamental en el logro de los objetivos.
 
-En resumen, este proyecto persigue el desarrollo de habilidades y conocimientos para concebir una interfaz web de calidad, guiado por el entendimiento profundo de las necesidades de los usuarios. La revisión de experiencias pasadas impulsará la definición de estrategias efectivas, tanto en el ámbito individual como en el equipo, descubrirá así un proyecto sólido y enfocado en la satisfacción y éxito del usuario final.
 
-### Test de usabilidad
+### Prueba de usabilidad de la aplicación 
 
-![Test_unitarios_de_funcionalidades](./src/img/test.png)
+Usamos las herramientas de figma para crear nuestra prueba de usabilidad del primer prototipo de alta que realizamos. Sin embargo nos llevamos casi un spring en realizar todo esto solo para móvil, por lo que decidimos comenzar a codear en base a lo que ya teníamos y alos comentarios que recibimos en la prueba de usabilidad. En el siguiente enlace se puede acceder para probar el prototipo, también se uncluye una imagen del mismo.
+
+![Prueba de usabilidad](./src/img/pruebafigma.gif)
+
+## Despliegue de la página
+
+https://andyapg.github.io/DEV009-data-lovers/
