@@ -205,13 +205,11 @@ body {
     left: 7%;
     }
     .menu select { 
-        width: fit-content;
+        width: max-content;
         padding-right: 3rem;
         
       }
-    .menu option{
-        width: 100%;
-    }
+    
 
 
 }
