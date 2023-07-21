@@ -44,7 +44,7 @@ body {
   padding: 0.5em;
   position:fixed;
   width: 100%;
-  top:24vh;
+  top:23vh;
   
 }
       
@@ -190,7 +190,7 @@ body {
 /*Responsive*/
 @media screen and (max-width: 768px) {
   .menu{
-    top:16.3vh;
+    top:16vh;
   }
   .menu form {
     
